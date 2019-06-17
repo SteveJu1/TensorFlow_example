@@ -1,5 +1,6 @@
 # TensorFlow_example
-# Housing prices 
+## Housing prices
+
 ``` python
 #加载库函数 
 import tensorflow as tf 
@@ -17,4 +18,5 @@ ys = np.array([1.0, 1.5, 2.0, 2.5, 3.0, 3.5], dtype=float)
 model.fit(xs, ys, epochs=1000)
 print(model.predict([7.0]))
 #Tip:一般只有字符串才加''，表示数字不加''或""
+#https://www.coursera.org/learn/introduction-tensorflow
 ```
